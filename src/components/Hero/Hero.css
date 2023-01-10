@@ -10,12 +10,13 @@
     flex: 3;
     gap: 2rem;
     flex-direction: column;
-
 }
 
 .right-h {
     flex: 1;
-
+    position: relative;
+    background-color: var(--orange);
+    height: 100vh;
 }
 
 .slogan-cedime {
@@ -85,4 +86,62 @@
 .figures>div>span:nth-of-type(2){
     color: var(--secondarycolor);
     text-transform: uppercase;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 1rem;
+    font-weight: normal;
+}
+
+.hero-buttons>:nth-child(1){
+    color: white;
+    background-color: var(--orange);
+    width: 8rem;
+}
+
+.hero-buttons>:nth-child(2){
+    color: white;
+    background-color: transparent;
+    width: 8rem;
+    border: 2px solid var(--orange);
+}
+
+.heart{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--secondarycolor);
+    width: fit-content;
+    padding: 1rem;
+    align-items: flex-start;
+    border-radius: 5px;
+    position: absolute;
+    right: 4rem;
+    top: 7rem;
+}
+
+
+.heart>:nth-child(2){
+    color: var(--ligthcolor);
+}
+.heart>:nth-child(3){
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+.hero-image{
+    position: absolute;
+    top: 18rem;
+    right: 18rem;
+    width: 23rem;
+}
+
+.hero-image_back{
+    position: absolute;
+    top: 4rem;
+    right: 20rem;
+    z-index: -1;
+    width: 15rem;
 }
