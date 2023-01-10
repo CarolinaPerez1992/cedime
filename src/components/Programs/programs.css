@@ -1,0 +1,36 @@
+.Programs{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+.Programs-header{
+    display: flex;
+    gap: 5rem;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.box{
+    display: flex;
+    align-items:center ;
+    justify-content: space-around;
+    margin: 2rem;
+    flex-wrap: wrap;
+}
+
+.card-body{
+    align-items: center;
+    object-fit: contain;
+}
+
+.card{
+    height: 23rem;
+    margin: .5rem;
+    background-color: #FFB703;
+}
+
