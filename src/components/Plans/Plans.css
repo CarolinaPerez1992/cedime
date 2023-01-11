@@ -1,0 +1,12 @@
+.box{
+    display: flex;
+    align-items:center ;
+    justify-content: space-around;
+    margin: 2rem;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 25rem;
+    margin: .5rem;
+}
