@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Programs.css"
+import "./programs.css"
 import corazon from '../../assets/corazon.png'
 import tierra from '../../assets/tierra.png'
 import amigo from '../../assets/amigo.png'
